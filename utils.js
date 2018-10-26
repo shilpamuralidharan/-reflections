@@ -15,6 +15,7 @@
   utils.isInt = function(number) {
     return parseFloat(number) === parseInt(number);
   };
+	var p;
 
   utils.toRadian = function(degree) {
     return (degree * Math.PI/180);
